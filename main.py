@@ -40,3 +40,17 @@ while (mauUlang == True):
             poinkeamanan += 10
         else:
             print("Password anda belum memiliki karakter unik")
+    
+        if (poinkeamanan == 20):
+            print("Password anda sangat kuat")
+        elif(poinkeamanan == 10):
+            print("Password anda lumayan kuat")
+        else:
+            print("Password anda masih lemah")
+
+        mauUlang = pilihUlang()
+    
+        else:
+            print("Maaf password anda tidak memenuhi syarat")
+
+        mauUlang = pilihUlang()
