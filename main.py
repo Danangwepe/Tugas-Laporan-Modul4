@@ -3,6 +3,8 @@ from cek import *
 poinkeamanan = int(0)
 mauUlang = bool(True)
 
+#Kita buat function terlebih dahulu
+
 def kriteriaPass():
     print("Kriteria Password")
     print("1. Password tidak boleh kurang dari 8 karakter dan tidak boleh lebih dari 32 karakter")
